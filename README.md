@@ -15,17 +15,3 @@ JSONデータの整形・検証・各種フォーマットへの相互変換を�
 2. 「整形」「検証」「変換」などの該当アクションを選択
 3. 出力エリアから結果を取得
 
-## 開発・セットアップ
-
-```bash
-# リポジトリのクローン
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-
-# ディレクトリへ移動
-cd your-repo-name
-
-# 依存関係のインストール
-npm install
-
-# ローカルサーバー起動
-npm run dev

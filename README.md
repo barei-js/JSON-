@@ -1,0 +1,31 @@
+# JSONデータの整形・検証・相互変換ツール
+
+JSONデータの整形・検証・各種フォーマットへの相互変換を網羅した開発者向けウェブツールです。
+
+## 主な機能
+
+* **整形（Format / Prettify）**: 雑多なJSONを見やすくインデント整形
+* **検証（Validation）**: 構文エラーのリアルタイム検出と該当箇所の表示
+* **相互変換（Conversion）**: JSONからYAML、XML、CSV等への相互変換
+* **出力**: 結果のワンクリックコピーおよびファイルダウンロード
+
+## 使い方
+
+1. 入力エリアにJSONデータを貼り付ける（またはファイルをドロップ）
+2. 「整形」「検証」「変換」などの該当アクションを選択
+3. 出力エリアから結果を取得
+
+## 開発・セットアップ
+
+```bash
+# リポジトリのクローン
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+
+# ディレクトリへ移動
+cd your-repo-name
+
+# 依存関係のインストール
+npm install
+
+# ローカルサーバー起動
+npm run dev
